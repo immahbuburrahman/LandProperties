@@ -1,0 +1,46 @@
+.table-wrap {
+    margin: 20px;  
+    border: 2px solid #3B1C0A; /* Border color for the container */
+    border-radius: 15px; /* Rounded corners for the container */
+    overflow: hidden; /* Ensures that the rounded corners show correctly */
+    background-color: transparent;
+}
+
+table {
+    width: calc(100% - 30px);
+    border-collapse: collapse; /* Change this to separate for rounded corners */
+    margin-bottom: 2.54cm;
+    border: 0; /* Table border; handled by cell borders */
+    border-radius: 15px; /* Rounded corners for the table */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    color: #000000;
+}
+
+table th, table td {
+    border: 3px solid #3B1C0A; /* Set cell borders to 3px */
+    padding: 8px;
+    background-color: transparent; /* Remove cell background color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.header-cell {
+    font-weight: bold; /* Bold text for header */
+    text-align: left;  /* Left-align text */
+}
+
+table td {
+    text-align: center; /* Center-align table data cells */
+}
+
+.table-cell {
+    /* Bold text for header */
+    text-align: left;  /* Left-align text */
+}
+
+
+/* Hover effect for table headers */
+table th:hover {
+    color: white; /* Change text color to white */
+    background-color: #3B1C0A; /* Set background color */
+}
+

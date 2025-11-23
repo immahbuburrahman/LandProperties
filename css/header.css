@@ -1,0 +1,28 @@
+header {
+    height: 2.54cm; /* 1 inch */
+    background-color: white; /* Change to white */
+    color: #3B1C0A; /* Dark Coffee color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 4px solid #3B1C0A; /* Border */
+    padding: 15px; /* Padding */
+    border-radius: 25px; /* Border radius */
+    margin: 5px; /* Margin */
+    font-size: 25px; /* Header text size */
+/*  font-weight: bold; Bold text */
+    position: fixed; /* Make header fixed */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    right: 0; /* Align to right */
+    z-index: 1000; /* Ensure it is above other elements */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+header:hover {
+    background-color: #3B1C0A; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+
