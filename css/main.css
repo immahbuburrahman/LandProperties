@@ -51,7 +51,7 @@ h2 {
 
 img {
     width: 500px; /* Image filling the cell */
-    height: 300px; /* Maintains aspect ratio */
+    height: 500px; /* Maintains aspect ratio */
     cursor: pointer; /* Pointer on hover */
 }
     
