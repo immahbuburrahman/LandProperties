@@ -1,5 +1,6 @@
 footer {
-    height: 1.905cm; /* 0.75 inch */
+  /*  height: 1.905cm; /* 0.75 inch */
+    height: 0.75cm;
     background-color: white; /* Change to white */
     color: #3B1C0A; /* Dark Coffee color */
     display: flex;
@@ -10,7 +11,7 @@ footer {
     padding: 15px; /* Padding */
     border-radius: 25px; /* Border radius */
     margin: 5px; /* Margin */
-    font-size: 18px; /* Footer text size */
+    font-size: 14px; /* Footer text size */
     position: sticky;
     bottom: 0;
     left: 0;

@@ -29,8 +29,9 @@ h2 {
 /* Main Content Styles */
 .main-content {
     position: absolute; /* Use absolute positioning */
-    top: 110px; /* Position below the header */
-    bottom: 85px; /* Keep above the footer */
+ /* top: 110px; /* Position below the header */
+    top: 85px;
+    bottom: 46px; /* Keep above the footer */
     left: 220px; /* Align with sidenav */
     right: 5px; /* Space from the right side */
     padding: 15px; /* Padding */

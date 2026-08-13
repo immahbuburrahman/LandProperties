@@ -1,5 +1,6 @@
 header {
-    height: 2.54cm; /* 1 inch */
+    /* height: 2.54cm; /* 1 inch */
+    height: 2cm;
     background-color: white; /* Change to white */
     color: #3B1C0A; /* Dark Coffee color */
     display: flex;
@@ -10,7 +11,7 @@ header {
     padding: 15px; /* Padding */
     border-radius: 25px; /* Border radius */
     margin: 5px; /* Margin */
-    font-size: 25px; /* Header text size */
+    font-size: 20px; /* Header text size */
 /*  font-weight: bold; Bold text */
     position: fixed; /* Make header fixed */
     top: 0; /* Align to top */

@@ -4,12 +4,12 @@ body {
 }
 
 .sidenav {
-    width: 200px; /* Adjust width as needed */
+    width: 211px; /* Adjust width as needed */
     background-color: white; /* Change to white */
     padding: 15px; /* Padding */
     position: fixed; /* Fixed position */
-    top: 105px; /* Distance from top */
-    bottom: 80px; /* Space for footer height and margin */
+    top: 80px; /* Distance from top */
+    bottom: 42px; /* Space for footer height and margin */
     border: 4px solid #3B1C0A; /* Border */
     margin: 5px; /* Margin */
     border-radius: 25px; /* Border radius */
