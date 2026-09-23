@@ -33,12 +33,12 @@ body {
 }
 
 .scrollable-content-1 {
-    height: calc(100% - 150px); /* Adjust height to leave room for h2 */
+    height: calc(100% - 157px); /* Adjust height to leave room for h2 */
     overflow-y: auto; /* Enable scrolling in this section */
 }
 
 .scrollable-content-2 {
-    height: calc(100% - 260px); /* Adjust height to leave room for h2 */
+    height: calc(100% - 285px); /* Adjust height to leave room for h2 */
     overflow-y: auto; /* Enable scrolling in this section */
 }
 
